@@ -4,7 +4,7 @@ set -e
 prefix=$1  # e.g. data/demo/
 
 device="cuda"  # "cuda" or "cpu"
-pixel_size=1.0  # desired pixel size for the whole analysis
+pixel_size=0.5  # desired pixel size for the whole analysis
 n_genes=1000  # number of most variable genes to impute
 
 # preprocess histology image
